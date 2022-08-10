@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBlogs</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- links -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+    <!-- Navbar Starts -->
+    <!-- Navbar is used any website to navigate in the website and show user the fuction of exploring other pages . -->
+    <header class="bg-gray-900">
+
+        <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-1 md:flex md:items-center md:gap-12">
+                    <a class="block text-teal-300" href="/">
+                        <span class="sr-only">Home</span>
+                        <svg class="h-8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z"
+                                fill="currentColor" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="md:flex md:items-center md:gap-12">
+                    <nav class="hidden md:block" aria-labelledby="header-navigation">
+                        <ul class="flex items-center gap-6 text-sm">
+                            <li class="">
+                                <a class="text-white hover:text-slate-400 transition" href="/">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="">
+                                <a class="text-white hover:text-slate-400 transition" href="./about.html">
+                                    About
+                                </a>
+                            </li>
+
+                            <li class="">
+                                <a class="text-white hover:text-slate-400 transition" href="./blog.html">
+                                    Blog
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="flex items-center gap-4">
+                        <div class="sm:gap-4 sm:flex">
+                            <a class="btn px-4 py-2" href="/login.html">
+                                Login
+                            </a>
+
+                            <div class="hidden sm:flex">
+                                <a class="btn px-4 py-2" href="/signup.html">
+                                    Register
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="block md:hidden">
+                            <!-- Mobile navbar -->
+                            <button class="p-2 text-white transition bg-gray-800 rounded hover:text-white/75"
+                                type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                                aria-controls="offcanvasExample">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                                </svg>
+                            </button>
+                            <div class="flex space-x-2">
+                                <div>
+                                    <div class="offcanvas offcanvas-start fixed bottom-0 flex flex-col max-w-full  invisible bg-clip-padding shadow-sm outline-none transition duration-300 ease-in-out text-gray-700 top-0 left-0 border-none w-80 bg-slate-100"
+                                        tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                        <div class="offcanvas-header flex items-center justify-between p-4">
+                                            <h5 class="offcanvas-title mb-0 leading-normal font-semibold"
+                                                id="offcanvasExampleLabel">Portfolio</h5>
+                                            <button type="button"
+                                                class="btn-close box-content w-4 h-4 p-2 -my-5 -mr-2 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body flex-grow p-4 overflow-y-auto bg-slate-100">
+                                            <ul class="flex flex-col space-x-4 space-y-4">
+                                                <li></li>
+                                                <li class="hover:text-slate-500 text-slate-700 transition">
+                                                    <a class="" href="/">
+                                                        Home
+                                                    </a>
+                                                </li>
+                                                <li class="hover:text-slate-500 text-slate-700 transition">
+                                                    <a class="" href="./about.html">
+                                                        About
+                                                    </a>
+                                                </li>
+
+                                                <li class="hover:text-slate-500 text-slate-700 transition">
+                                                    <a class="" href="./blog.html">
+                                                        Blog
+                                                    </a>
+                                                </li>
+
+                                                <li class="hover:text-slate-500 text-slate-700 transition">
+                                                    <a class="" href="./login.html">
+                                                        Login
+                                                    </a>
+                                                </li>
+                                                <li class="hover:text-slate-500 text-slate-700 transition">
+                                                    <a class="" href="./signup.html">
+                                                        SignUp
+                                                    </a>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </header>
+    <!-- Navbar ends -->
+
+
+    <!-- Main Starts -->
+    <!-- maintag is used in any website to write the main part of the website in it . -->
+    <main class="bg-slate-100 pb-14">
+        <!-- Back to top button -->
+        <button type="button"
+            class=" p-3 !bg-sky-700 z-10 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-sky-400 hover:shadow-lg active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out hidden bottom-5 right-5 fixed"
+            id="btn-back-to-top">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-4 h-4" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path fill="currentColor"
+                    d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z">
+                </path>
+            </svg>
+        </button>
+
+        <div class="">
+            <!-- design section starts -->
+            <!-- This div creates a attractive design to the user so user feels goog UI expericence. -->
+            <div class="">
+
+                <!-- Swiper -->
+                <div class="swiper mySwiper py-20">
+                    <div class="swiper-wrapper">
+                        <div
+                            class="swiper-slide   px-4 py-20 bg-sky-500 bg-[url('.././img/slide1.jpg')] bg-no-repeat bg-cover bg-origin-border w-full bg-center 
+                            ">
+                            <div class="flex flex-col-reverse md:flex-row items-center justify-around ">
+                                <div class="mt-12 lg:mt-0 lg:ml-12">
+                                    <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12
+                                    ">The best place <br /><span style="color: hsl(218, 81%, 75%);"
+                                            class="mt-1 block">to read blogs.</span>
+                                    </h1>
+                                    <a class="btn" data-mdb-ripple="true" data-mdb-ripple-color="light"
+                                        href="#trending_blogs" role="button">Get
+                                        started</a>
+                                    <a class="inline-block px-7 py-3 bg-transparent text-white font-medium text-sm leading-snug uppercase rounded focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                                        data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!"
+                                        role="button">Learn more</a>
+                                </div>
+                                <div class="mb-12 lg:mb-0 invisible">
+                                    <img src="./img/interactive.png" class="w-full rounded-lg shadow-lg" alt="" />
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div
+                            class="swiper-slide   px-4 py-20 bg-sky-500 bg-[url('.././img/slide2.jpg')] bg-no-repeat bg-cover bg-origin-border w-full bg-center 
+                            ">
+                            <div class="flex flex-col-reverse md:flex-row items-center justify-around ">
+                                <div class="mt-12 lg:mt-0 lg:ml-12">
+                                    <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12
+                                    ">The best place <br /><span style="color: hsl(218, 81%, 75%);"
+                                            class="mt-1 block">to read blogs.</span>
+                                    </h1>
+                                    <a class="btn" data-mdb-ripple="true" data-mdb-ripple-color="light"
+                                        href="#trending_blogs" role="button">Get
+                                        started</a>
+                                    <a class="inline-block px-7 py-3 bg-transparent text-white font-medium text-sm leading-snug uppercase rounded focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                                        data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!"
+                                        role="button">Learn more</a>
+                                </div>
+                                <div class="mb-12 lg:mb-0 invisible">
+                                    <img src="./img/interactive.png" class="w-full rounded-lg shadow-lg" alt="" />
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div
+                            class="swiper-slide   px-4 py-20 bg-sky-500 bg-[url('.././img/slide3.jpg')] bg-no-repeat bg-cover bg-origin-border w-full bg-center opac
+                            ">
+                            <div class="flex flex-col-reverse md:flex-row items-center justify-around ">
+                                <div class="mt-12 lg:mt-0 lg:ml-12">
+                                    <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12
+                                    ">The best place <br /><span style="color: hsl(187, 31%, 79%);"
+                                            class="mt-1 block">to read blogs.</span>
+                                    </h1>
+                                    <a class="btn" data-mdb-ripple="true" data-mdb-ripple-color="light"
+                                        href="#trending_blogs" role="button">Get
+                                        started</a>
+                                    <a class="inline-block px-7 py-3 bg-transparent text-white font-medium text-sm leading-snug uppercase rounded focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                                        data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!"
+                                        role="button">Learn more</a>
+                                </div>
+                                <div class="mb-12 lg:mb-0 invisible">
+                                    <img src="./img/interactive.png" class="w-full rounded-lg shadow-lg" alt="" />
+                                </div>
+
+
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+                <!-- design section ends -->
+
+                <!-- Blog Section starts-->
+                <!-- Thbis section shows the latest blogs from the techbolgs website along with the published date topics  -->
+                <div class=" py-6 sm:py-8 lg:py-10">
+                    <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
+                        <!-- text - start -->
+                        <div class="mb-10 md:mb-16 text-center">
+                            <h2 class="text-3xl font-bold mb-12 group">Latest <span
+                                    class="relative after:absolute after:bg-gray-400 after:-bottom-2 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">Blogs</span>
+                            </h2>
+                        </div>
+                        <!-- text - end -->
+
+                        <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 md:gap-6 xl:gap-8">
+                            <!-- article - start -->
+                            <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+                                <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                                    <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
+                                        loading="lazy" alt="Photo by Minh Pham"
+                                        class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+                                </a>
+
+                                <div class="flex flex-col flex-1 p-4 sm:p-6">
+                                    <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                                        <a href="#"
+                                            class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">New
+                                            trends in Tech</a>
+                                    </h2>
+
+                                    <p class="text-gray-500 mb-8">This is a section of some simple filler text, also
+                                        known
+                                        as placeholder text. </p>
+
+                                    <div class="flex justify-between items-end mt-auto">
+                                        <div class="flex items-center gap-2">
+                                            <div class="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
+                                                <img src="https://images.unsplash.com/photo-1611898872015-0571a9e38375?auto=format&q=75&fit=crop&w=64"
+                                                    loading="lazy" alt="Photo by Brock Wegner"
+                                                    class="w-full h-full object-cover object-center" />
+                                            </div>
+
+                                            <div>
+                                                <span class="block text-indigo-500">Mike Lane</span>
+                                                <span class="block text-gray-400 text-sm">July 19, 2021</span>
+                                            </div>
+                                        </div>
+
+                                        <span class="text-gray-500 text-sm border rounded px-2 py-1">Article</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- article - end -->
+
+                            <!-- article - start -->
+                            <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+                                <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+                                        loading="lazy" alt="Photo by Lorenzo Herrera"
+                                        class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+                                </a>
+
+                                <div class="flex flex-col flex-1 p-4 sm:p-6">
+                                    <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                                        <a href="#"
+                                            class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">Working
+                                            with legacy stacks</a>
+                                    </h2>
+
+                                    <p class="text-gray-500 mb-8">This is a section of some simple filler text, also
+                                        known
+                                        as placeholder text. </p>
+
+                                    <div class="flex justify-between items-end mt-auto">
+                                        <div class="flex items-center gap-2">
+                                            <div class="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
+                                                <img src="https://images.unsplash.com/photo-1586116104126-7b8e839d5b8c?auto=format&q=75&fit=crop&w=64"
+                                                    loading="lazy" alt="Photo by peter bucks"
+                                                    class="w-full h-full object-cover object-center" />
+                                            </div>
+
+                                            <div>
+                                                <span class="block text-indigo-500">Jane Jackobs</span>
+                                                <span class="block text-gray-400 text-sm">April 07, 2021</span>
+                                            </div>
+                                        </div>
+
+                                        <span class="text-gray-500 text-sm border rounded px-2 py-1">Article</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- article - end -->
+
+                            <!-- article - start -->
+                            <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+                                <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                                    <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600"
+                                        loading="lazy" alt="Photo by Magicle"
+                                        class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+                                </a>
+
+                                <div class="flex flex-col flex-1 p-4 sm:p-6">
+                                    <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                                        <a href="#"
+                                            class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">10
+                                            best smartphones for devs</a>
+                                    </h2>
+
+                                    <p class="text-gray-500 mb-8">This is a section of some simple filler text, also
+                                        known
+                                        as placeholder text. </p>
+
+                                    <div class="flex justify-between items-end mt-auto">
+                                        <div class="flex items-center gap-2">
+                                            <div class="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
+                                                <img src="https://images.unsplash.com/photo-1592660503155-7599a37f06a6?auto=format&q=75&fit=crop&w=64"
+                                                    loading="lazy" alt="Photo by Jassir Jonis"
+                                                    class="w-full h-full object-cover object-center" />
+                                            </div>
+
+                                            <div>
+                                                <span class="block text-indigo-500">Tylor Grey</span>
+                                                <span class="block text-gray-400 text-sm">March 15, 2021</span>
+                                            </div>
+                                        </div>
+
+                                        <span class="text-gray-500 text-sm border rounded px-2 py-1">Article</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- article - end -->
+
+                            <!-- article - start -->
+
+                            <!-- article - end -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Section Ends -->
+
+                <!-- Team section starts-->
+                <!-- The team section is creating a team section with three team members showing theri basic information. -->
+
+                <div class="container my-24 px-6 mx-auto">
+
+                    <!-- Section: Design Block -->
+                    <section class="mb-32 text-gray-800 text-center">
+                        <h2 class="text-3xl font-bold mb-12 group">Our <span
+                                class="relative after:absolute after:bg-gray-400 after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">Team</span>
+                        </h2>
+
+                        <div class="grid md:grid-cols-3 gap-x-6 lg:gap-x-12">
+                            <div class="mb-6 lg:mb-0">
+                                <div
+                                    class="bg-white block rounded-lg shadow-lg overflow-hidden transition duration-300 transform border  hover:scale-105 group hover:shadow-xl">
+                                    <div class="relative overflow-hidden bg-no-repeat bg-cover">
+                                        <img src="./img/shankar.jpg" class="h-[450px] rounded-t-lg w-full" />
+                                        <a href="#!">
+                                            <div
+                                                class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
+                                            </div>
+                                        </a>
+                                        <svg class="absolute" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+                                            style="left: 0; bottom: 0">
+                                            <path fill="#fff"
+                                                d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="p-6">
+                                        <h5 class="text-lg font-bold mb-4">Shankar Yadav</h5>
+                                        <p class="text-gray-500 mb-4">Graphics Designer</p>
+                                        <ul class="list-inside flex mx-auto justify-center">
+                                            <a href="#!" class="px-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                                                    class="w-4 h-4 text-blue-600">
+                                                    <path fill="currentColor"
+                                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                                                </svg>
+                                            </a>
+                                            <a href="#!" class="px-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                    class="w-4 h-4 text-blue-600">
+                                                    <path fill="currentColor"
+                                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                                                </svg>
+                                            </a>
+                                            <a href="#!" class="px-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                                    class="w-4 h-4 text-blue-600">
+                                                    <path fill="currentColor"
+                                                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                                                </svg>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-6 lg:mb-0">
+                                <div
+                                    class="bg-white block rounded-lg shadow-lg overflow-hidden transition duration-300 transform border  hover:scale-105 group hover:shadow-xl">
+                                    <div class="relative overflow-hidden bg-no-repeat bg-cover">
+                                        <img src="./img/pradeep.jpg" class="h-[450px] rounded-t-lg w-full" />
+                                        <a href="#!">
+                                            <div
+                                                class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
+                                            </div>
+                                        </a>
+                                        <svg class="absolute" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+                                            style="left: 0; bottom: 0">
+                                            <path fill="#fff"
+                                                d="M0,96L48,128C96,160,192,224,288,240C384,256,480,224,576,213.3C672,203,768,213,864,202.7C960,192,1056,160,1152,128C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="p-6">
+                                        <h5 class="text-lg font-bold mb-4">Pradeep Gupta</h5>
+                                        <p class="text-gray-500 mb-4">Web Designer</p>
+                                        <ul class="list-inside flex mx-auto justify-center">
+                                            <a href="#!" class="px-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                                                    class="w-4 h-4 text-blue-600">
+                                                    <path fill="currentColor"
+                                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                                                </svg>
+                                            </a>
+                                            <a href="#!" class="px-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                    class="w-4 h-4 text-blue-600">
+                                                    <path fill="currentColor"
+                                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                                                </svg>
+                                            </a>
+                                            <a href="#!" class="px-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                                    class="w-4 h-4 text-blue-600">
+                                                    <path fill="currentColor"
+                                                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                                                </svg>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="">
+                                <div
+                                    class="bg-white block rounded-lg shadow-lg overflow-hidden transition duration-300 transform border  hover:scale-105 group hover:shadow-xl">
+                                    <div class="relative overflow-hidden bg-no-repeat bg-cover">
+                                        <img src="./img/bandana.jpg" class="h-[450px] rounded-t-lg w-full" />
+                                        <a href="#!">
+                                            <div
+                                                class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
+                                            </div>
+                                        </a>
+                                        <svg class="absolute" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+                                            style="left: 0; bottom: 0">
+                                            <path fill="#fff"
+                                                d="M0,288L48,256C96,224,192,160,288,160C384,160,480,224,576,213.3C672,203,768,117,864,85.3C960,53,1056,75,1152,69.3C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="p-6">
+                                        <h5 class="text-lg font-bold mb-4">Bandana Yadav</h5>
+                                        <p class="text-gray-500 mb-4">Software Developer</p>
+                                        <ul class="list-inside flex mx-auto justify-center">
+                                            <a href="#!" class="px-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                    class="w-4 h-4 text-blue-600">
+                                                    <path fill="currentColor"
+                                                        d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z" />
+                                                </svg>
+                                            </a>
+                                            <a href="#!" class="px-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                                    class="w-4 h-4 text-blue-600">
+                                                    <path fill="currentColor"
+                                                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                                                </svg>
+                                            </a>
+                                            <a href="#!" class="px-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                                    class="w-4 h-4 text-blue-600">
+                                                    <path fill="currentColor"
+                                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                                </svg>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Section: Design Block -->
+
+                </div>
+                <!--Team Section Ends -->
+
+                <!-- This section shows the features of the blogging website -->
+                <!-- feature section starts -->
+                <div>
+                    <div
+                        class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                        <h3 class="text-center text-slate-800 text-3xl font-bold mb-28 group">Features Of Our <span
+                                class="relative after:absolute after:bg-gray-400 after:-bottom-2 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">
+                                Blog Website</span></h3>
+                        <div class="grid gap-8 row-gap-5 lg:grid-cols-3">
+                            <div
+                                class="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+
+                                <div class="relative p-5 bg-white rounded-sm">
+                                    <div class="flex flex-col mb-2 lg:items-center lg:flex-row">
+                                        <div
+                                            class="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full  lg:mb-0">
+                                            <svg class="w-8 h-8 text-deep-purple-accent-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M286.3 155.1C287.4 161.9 288 168.9 288 175.1C288 183.1 287.4 190.1 286.3 196.9L308.5 216.7C315.5 223 318.4 232.1 314.7 241.7C312.4 246.1 309.9 252.2 307.1 257.2L304 262.6C300.1 267.6 297.7 272.4 294.2 277.1C288.5 284.7 278.5 287.2 269.5 284.2L241.2 274.9C230.5 283.8 218.3 290.9 205 295.9L198.1 324.9C197 334.2 189.8 341.6 180.4 342.8C173.7 343.6 166.9 344 160 344C153.1 344 146.3 343.6 139.6 342.8C130.2 341.6 122.1 334.2 121 324.9L114.1 295.9C101.7 290.9 89.5 283.8 78.75 274.9L50.53 284.2C41.54 287.2 31.52 284.7 25.82 277.1C22.28 272.4 18.98 267.5 15.94 262.5L12.92 257.2C10.13 252.2 7.592 247 5.324 241.7C1.62 232.1 4.458 223 11.52 216.7L33.7 196.9C32.58 190.1 31.1 183.1 31.1 175.1C31.1 168.9 32.58 161.9 33.7 155.1L11.52 135.3C4.458 128.1 1.62 119 5.324 110.3C7.592 104.1 10.13 99.79 12.91 94.76L15.95 89.51C18.98 84.46 22.28 79.58 25.82 74.89C31.52 67.34 41.54 64.83 50.53 67.79L78.75 77.09C89.5 68.25 101.7 61.13 114.1 56.15L121 27.08C122.1 17.8 130.2 10.37 139.6 9.231C146.3 8.418 153.1 8 160 8C166.9 8 173.7 8.418 180.4 9.23C189.8 10.37 197 17.8 198.1 27.08L205 56.15C218.3 61.13 230.5 68.25 241.2 77.09L269.5 67.79C278.5 64.83 288.5 67.34 294.2 74.89C297.7 79.56 300.1 84.42 304 89.44L307.1 94.83C309.9 99.84 312.4 105 314.7 110.3C318.4 119 315.5 128.1 308.5 135.3L286.3 155.1zM160 127.1C133.5 127.1 112 149.5 112 175.1C112 202.5 133.5 223.1 160 223.1C186.5 223.1 208 202.5 208 175.1C208 149.5 186.5 127.1 160 127.1zM484.9 478.3C478.1 479.4 471.1 480 464 480C456.9 480 449.9 479.4 443.1 478.3L423.3 500.5C416.1 507.5 407 510.4 398.3 506.7C393 504.4 387.8 501.9 382.8 499.1L377.4 496C372.4 492.1 367.6 489.7 362.9 486.2C355.3 480.5 352.8 470.5 355.8 461.5L365.1 433.2C356.2 422.5 349.1 410.3 344.1 397L315.1 390.1C305.8 389 298.4 381.8 297.2 372.4C296.4 365.7 296 358.9 296 352C296 345.1 296.4 338.3 297.2 331.6C298.4 322.2 305.8 314.1 315.1 313L344.1 306.1C349.1 293.7 356.2 281.5 365.1 270.8L355.8 242.5C352.8 233.5 355.3 223.5 362.9 217.8C367.6 214.3 372.5 210.1 377.5 207.9L382.8 204.9C387.8 202.1 392.1 199.6 398.3 197.3C407 193.6 416.1 196.5 423.3 203.5L443.1 225.7C449.9 224.6 456.9 224 464 224C471.1 224 478.1 224.6 484.9 225.7L504.7 203.5C511 196.5 520.1 193.6 529.7 197.3C535 199.6 540.2 202.1 545.2 204.9L550.5 207.9C555.5 210.1 560.4 214.3 565.1 217.8C572.7 223.5 575.2 233.5 572.2 242.5L562.9 270.8C571.8 281.5 578.9 293.7 583.9 306.1L612.9 313C622.2 314.1 629.6 322.2 630.8 331.6C631.6 338.3 632 345.1 632 352C632 358.9 631.6 365.7 630.8 372.4C629.6 381.8 622.2 389 612.9 390.1L583.9 397C578.9 410.3 571.8 422.5 562.9 433.2L572.2 461.5C575.2 470.5 572.7 480.5 565.1 486.2C560.4 489.7 555.6 492.1 550.6 496L545.2 499.1C540.2 501.9 534.1 504.4 529.7 506.7C520.1 510.4 511 507.5 504.7 500.5L484.9 478.3zM512 352C512 325.5 490.5 304 464 304C437.5 304 416 325.5 416 352C416 378.5 437.5 400 464 400C490.5 400 512 378.5 512 352z"/></svg>
+                                        </div>
+                                        <h6 class="font-semibold leading-5">Featured blogging website</h6>
+                                    </div>
+                                    <p class="mb-2 text-sm text-gray-900">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        doloremque rem aperiam.
+                                    </p>
+                                    <a href="/" aria-label=""
+                                        class="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
+                                        more</a>
+                                </div>
+                            </div>
+                            <div
+                                class="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+
+                                <div class="relative p-5 bg-white rounded-sm">
+                                    <div class="flex flex-col mb-2 lg:items-center lg:flex-row">
+                                        <div
+                                            class="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full  lg:mb-0">
+                                            <svg class="w-8 h-8 text-deep-purple-accent-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 32H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h448c35.35 0 64-28.65 64-64V96C576 60.65 547.3 32 512 32zM176 128c35.35 0 64 28.65 64 64s-28.65 64-64 64s-64-28.65-64-64S140.7 128 176 128zM272 384h-192C71.16 384 64 376.8 64 368C64 323.8 99.82 288 144 288h64c44.18 0 80 35.82 80 80C288 376.8 280.8 384 272 384zM496 320h-128C359.2 320 352 312.8 352 304S359.2 288 368 288h128C504.8 288 512 295.2 512 304S504.8 320 496 320zM496 256h-128C359.2 256 352 248.8 352 240S359.2 224 368 224h128C504.8 224 512 231.2 512 240S504.8 256 496 256zM496 192h-128C359.2 192 352 184.8 352 176S359.2 160 368 160h128C504.8 160 512 167.2 512 176S504.8 192 496 192z"/></svg>
+                                        </div>
+                                        <h6 class="font-semibold leading-5">Know about us</h6>
+                                    </div>
+                                    <p class="mb-2 text-sm text-gray-900">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        doloremque rem aperiam.
+                                    </p>
+                                    <a href="/" aria-label=""
+                                        class="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
+                                        more</a>
+                                </div>
+                            </div>
+                            <div
+                                class="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+                                <div class="relative p-5 bg-white rounded-sm">
+                                    <div class="flex flex-col mb-2 lg:items-center lg:flex-row">
+                                        <div
+                                            class="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full lg:mb-0">
+                                            <svg class="w-8 h-8 text-deep-purple-accent-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M448 336v-288C448 21.49 426.5 0 400 0H96C42.98 0 0 42.98 0 96v320c0 53.02 42.98 96 96 96h320c17.67 0 32-14.33 32-31.1c0-11.72-6.607-21.52-16-27.1v-81.36C441.8 362.8 448 350.2 448 336zM143.1 128h192C344.8 128 352 135.2 352 144C352 152.8 344.8 160 336 160H143.1C135.2 160 128 152.8 128 144C128 135.2 135.2 128 143.1 128zM143.1 192h192C344.8 192 352 199.2 352 208C352 216.8 344.8 224 336 224H143.1C135.2 224 128 216.8 128 208C128 199.2 135.2 192 143.1 192zM384 448H96c-17.67 0-32-14.33-32-32c0-17.67 14.33-32 32-32h288V448z"/></svg>
+                                        </div>
+                                        <h6 class="font-semibold leading-5">This is about knowledge</h6>
+                                    </div>
+                                    <p class="mb-2 text-sm text-gray-900">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        doloremque rem aperiam.
+                                    </p>
+                                    <a href="/" aria-label=""
+                                        class="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
+                                        more</a>
+                                </div>
+                            </div>
+                            <div
+                                class="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+                                <div class="relative p-5 bg-white rounded-sm">
+                                    <div class="flex flex-col mb-2 lg:items-center lg:flex-row">
+                                        <div
+                                            class="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full  lg:mb-0">
+                                            <svg class="w-8 h-8 text-deep-purple-accent-400"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 64C238.3 64 224 78.33 224 96C224 113.7 238.3 128 256 128C273.7 128 288 113.7 288 96C288 78.33 273.7 64 256 64zM256 416C291.3 416 320 387.3 320 352C320 334.6 313.1 318.9 301.9 307.4L365.1 161.7C371.3 149.5 365.8 135.4 353.7 130C341.5 124.7 327.4 130.2 322 142.3L257.9 288C257.3 288 256.6 287.1 256 287.1C220.7 287.1 192 316.7 192 352C192 387.3 220.7 416 256 416V416zM144 112C126.3 112 112 126.3 112 144C112 161.7 126.3 176 144 176C161.7 176 176 161.7 176 144C176 126.3 161.7 112 144 112zM96 288C113.7 288 128 273.7 128 256C128 238.3 113.7 224 96 224C78.33 224 64 238.3 64 256C64 273.7 78.33 288 96 288zM416 224C398.3 224 384 238.3 384 256C384 273.7 398.3 288 416 288C433.7 288 448 273.7 448 256C448 238.3 433.7 224 416 224z"/></svg>
+                                        </div>
+                                        <h6 class="font-semibold leading-5">Faster loading speed</h6>
+                                    </div>
+                                    <p class="mb-2 text-sm text-gray-900">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        doloremque rem aperiam.
+                                    </p>
+                                    <a href="/" aria-label=""
+                                        class="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
+                                        more</a>
+                                </div>
+                            </div>
+                            <div
+                                class="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+                                <div class="relative p-5 bg-white rounded-sm">
+                                    <div class="flex flex-col mb-2 lg:items-center lg:flex-row">
+                                        <div
+                                            class="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full  lg:mb-0">
+                                            <svg class="w-8 h-8 text-deep-purple-accent-400"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M162.4 196c4.8-4.9 6.2-5.1 36.4-5.1 27.2 0 28.1.1 32.1 2.1 5.8 2.9 8.3 7 8.3 13.6 0 5.9-2.4 10-7.6 13.4-2.8 1.8-4.5 1.9-31.1 2.1-16.4.1-29.5-.2-31.5-.8-10.3-2.9-14.1-17.7-6.6-25.3zm61.4 94.5c-53.9 0-55.8.2-60.2 4.1-3.5 3.1-5.7 9.4-5.1 13.9.7 4.7 4.8 10.1 9.2 12 2.2 1 14.1 1.7 56.3 1.2l47.9-.6 9.2-1.5c9-5.1 10.5-17.4 3.1-24.4-5.3-4.7-5-4.7-60.4-4.7zm223.4 130.1c-3.5 28.4-23 50.4-51.1 57.5-7.2 1.8-9.7 1.9-172.9 1.8-157.8 0-165.9-.1-172-1.8-8.4-2.2-15.6-5.5-22.3-10-5.6-3.8-13.9-11.8-17-16.4-3.8-5.6-8.2-15.3-10-22C.1 423 0 420.3 0 256.3 0 93.2 0 89.7 1.8 82.6 8.1 57.9 27.7 39 53 33.4c7.3-1.6 332.1-1.9 340-.3 21.2 4.3 37.9 17.1 47.6 36.4 7.7 15.3 7-1.5 7.3 180.6.2 115.8 0 164.5-.7 170.5zm-85.4-185.2c-1.1-5-4.2-9.6-7.7-11.5-1.1-.6-8-1.3-15.5-1.7-12.4-.6-13.8-.8-17.8-3.1-6.2-3.6-7.9-7.6-8-18.3 0-20.4-8.5-39.4-25.3-56.5-12-12.2-25.3-20.5-40.6-25.1-3.6-1.1-11.8-1.5-39.2-1.8-42.9-.5-52.5.4-67.1 6.2-27 10.7-46.3 33.4-53.4 62.4-1.3 5.4-1.6 14.2-1.9 64.3-.4 62.8 0 72.1 4 84.5 9.7 30.7 37.1 53.4 64.6 58.4 9.2 1.7 122.2 2.1 133.7.5 20.1-2.7 35.9-10.8 50.7-25.9 10.7-10.9 17.4-22.8 21.8-38.5 3.2-10.9 2.9-88.4 1.7-93.9z"/></svg>
+                                        </div>
+                                        <h6 class="font-semibold leading-5">Blogs from Experts</h6>
+                                    </div>
+                                    <p class="mb-2 text-sm text-gray-900">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        doloremque rem aperiam.
+                                    </p>
+                                    <a href="/" aria-label=""
+                                        class="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
+                                        more</a>
+                                </div>
+                            </div>
+                            <div
+                                class="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+                                <div class="relative p-5 bg-white rounded-sm">
+                                    <div class="flex flex-col mb-2 lg:items-center lg:flex-row">
+                                        <div
+                                            class="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full  lg:mb-0">
+                                            <svg class="w-8 h-8 text-deep-purple-accent-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c17.67 0 32 14.33 32 32v256c0 17.67-14.33 32-32 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c53.02 0 96-42.98 96-96V128C512 74.98 469 32 416 32zM342.6 233.4l-128-128c-12.51-12.51-32.76-12.49-45.25 0c-12.5 12.5-12.5 32.75 0 45.25L242.8 224H32C14.31 224 0 238.3 0 256s14.31 32 32 32h210.8l-73.38 73.38c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0l128-128C355.1 266.1 355.1 245.9 342.6 233.4z"/></svg>
+                                        </div>
+                                        <h6 class="font-semibold leading-5">Login and Signup</h6>
+                                    </div>
+                                    <p class="mb-2 text-sm text-gray-900">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        doloremque rem aperiam.
+                                    </p>
+                                    <a href="/" aria-label=""
+                                        class="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
+                                        more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- feature section ends -->
+
+                <!-- Trending Blogs Section starts -->
+                <!-- The above code is creating a section for the trending blogs. -->
+
+                <div class=" py-6 sm:py-8 lg:py-10" id="trending_blogs">
+                    <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
+                        <!-- text - start -->
+                        <div class="mb-10 md:mb-16">
+                            <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6 group">
+                                Trending
+                                <span
+                                    class="relative after:absolute after:bg-gray-400 after:-bottom-2 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">
+                                    Blogs</span>
+                            </h2>
+
+                        </div>
+                        <!-- text - end -->
+
+                        <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 md:gap-6 xl:gap-8">
+                            <!-- article - start -->
+                            <div
+                                class="flex flex-col bg-white border overflow-hidden rounded-lg shadow-lg  transition duration-300 transform   hover:scale-105 group hover:shadow-xl">
+                                <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                                    <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
+                                        loading="lazy" alt="Photo by Minh Pham"
+                                        class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+                                </a>
+
+                                <div class="flex flex-col flex-1 p-4 sm:p-6">
+                                    <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                                        <a href="#"
+                                            class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">New
+                                            trends in Tech</a>
+                                    </h2>
+
+                                    <p class="text-gray-500 mb-8">This is a section of some simple filler text, also
+                                        known
+                                        as placeholder text. </p>
+
+                                    <div class="flex justify-between items-end mt-auto">
+                                        <div class="flex items-center gap-2">
+                                            <div class="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
+                                                <img src="https://images.unsplash.com/photo-1611898872015-0571a9e38375?auto=format&q=75&fit=crop&w=64"
+                                                    loading="lazy" alt="Photo by Brock Wegner"
+                                                    class="w-full h-full object-cover object-center" />
+                                            </div>
+
+                                            <div>
+                                                <span class="block text-indigo-500">Mike Lane</span>
+                                                <span class="block text-gray-400 text-sm">July 19, 2021</span>
+                                            </div>
+                                        </div>
+
+                                        <span class="text-gray-500 text-sm border rounded px-2 py-1">Article</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- article - end -->
+
+                            <!-- article - start -->
+                            <div
+                                class="bg-white border overflow-hidden rounded-lg shadow-lg  transition duration-300 transform   hover:scale-105 group hover:shadow-xl">
+                                <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+                                        loading="lazy" alt="Photo by Lorenzo Herrera"
+                                        class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+                                </a>
+
+                                <div class="flex flex-col flex-1 p-4 sm:p-6">
+                                    <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                                        <a href="#"
+                                            class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">Working
+                                            with legacy stacks</a>
+                                    </h2>
+
+                                    <p class="text-gray-500 mb-8">This is a section of some simple filler text, also
+                                        known
+                                        as placeholder text. </p>
+
+                                    <div class="flex justify-between items-end mt-auto">
+                                        <div class="flex items-center gap-2">
+                                            <div class="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
+                                                <img src="https://images.unsplash.com/photo-1586116104126-7b8e839d5b8c?auto=format&q=75&fit=crop&w=64"
+                                                    loading="lazy" alt="Photo by peter bucks"
+                                                    class="w-full h-full object-cover object-center" />
+                                            </div>
+
+                                            <div>
+                                                <span class="block text-indigo-500">Jane Jackobs</span>
+                                                <span class="block text-gray-400 text-sm">April 07, 2021</span>
+                                            </div>
+                                        </div>
+
+                                        <span class="text-gray-500 text-sm border rounded px-2 py-1">Article</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- article - end -->
+
+                            <!-- article - start -->
+                            <div
+                                class="bg-white border overflow-hidden rounded-lg shadow-lg  transition duration-300 transform   hover:scale-105 group hover:shadow-xl">
+                                <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                                    <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600"
+                                        loading="lazy" alt="Photo by Magicle"
+                                        class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+                                </a>
+
+                                <div class="flex flex-col flex-1 p-4 sm:p-6">
+                                    <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                                        <a href="#"
+                                            class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">10
+                                            best smartphones for devs</a>
+                                    </h2>
+
+                                    <p class="text-gray-500 mb-8">This is a section of some simple filler text, also
+                                        known
+                                        as placeholder text. </p>
+
+                                    <div class="flex justify-between items-end mt-auto">
+                                        <div class="flex items-center gap-2">
+                                            <div class="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
+                                                <img src="https://images.unsplash.com/photo-1592660503155-7599a37f06a6?auto=format&q=75&fit=crop&w=64"
+                                                    loading="lazy" alt="Photo by Jassir Jonis"
+                                                    class="w-full h-full object-cover object-center" />
+                                            </div>
+
+                                            <div>
+                                                <span class="block text-indigo-500">Tylor Grey</span>
+                                                <span class="block text-gray-400 text-sm">March 15, 2021</span>
+                                            </div>
+                                        </div>
+
+                                        <span class="text-gray-500 text-sm border rounded px-2 py-1">Article</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- article - end -->
+                            <!-- article - start -->
+                            <div
+                                class="bg-white border overflow-hidden rounded-lg shadow-lg  transition duration-300 transform   hover:scale-105 group hover:shadow-xl">
+                                <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                                    <img src="./img/blog4.jpg" loading="lazy" alt="Photo by Magicle"
+                                        class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+                                </a>
+
+                                <div class="flex flex-col flex-1 p-4 sm:p-6">
+                                    <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                                        <a href="#"
+                                            class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">AI
+                                            regulation: A state-by-state roundup of AI bills</a>
+                                    </h2>
+
+                                    <p class="text-gray-500 mb-8">The Vermont bill passed last year and both California
+                                        and Washington state were really close</p>
+
+                                    <div class="flex justify-between items-end mt-auto">
+                                        <div class="flex items-center gap-2">
+                                            <div class="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
+                                                <img src="https://images.unsplash.com/photo-1592660503155-7599a37f06a6?auto=format&q=75&fit=crop&w=64"
+                                                    loading="lazy" alt="Photo by Jassir Jonis"
+                                                    class="w-full h-full object-cover object-center" />
+                                            </div>
+
+                                            <div>
+                                                <span class="block text-indigo-500">Tylor Grey</span>
+                                                <span class="block text-gray-400 text-sm">March 15, 2021</span>
+                                            </div>
+                                        </div>
+
+                                        <span class="text-gray-500 text-sm border rounded px-2 py-1">Article</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- article - end -->
+                            <!-- article - start -->
+                            <div
+                                class="bg-white border overflow-hidden rounded-lg shadow-lg  transition duration-300 transform   hover:scale-105 group hover:shadow-xl">
+                                <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                                    <img src="./img/blog5.jpg" loading="lazy" alt="Photo by Magicle"
+                                        class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+                                </a>
+
+                                <div class="flex flex-col flex-1 p-4 sm:p-6">
+                                    <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                                        <a href="#"
+                                            class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The
+                                            Facebookification of Instagrams</a>
+                                    </h2>
+
+                                    <p class="text-gray-500 mb-8">Land of the Giants examines the changing identity of
+                                        Instagram for the third episode of its latest season.</p>
+
+                                    <div class="flex justify-between items-end mt-auto">
+                                        <div class="flex items-center gap-2">
+                                            <div class="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
+                                                <img src="https://images.unsplash.com/photo-1592660503155-7599a37f06a6?auto=format&q=75&fit=crop&w=64"
+                                                    loading="lazy" alt="Photo by Jassir Jonis"
+                                                    class="w-full h-full object-cover object-center" />
+                                            </div>
+
+                                            <div>
+                                                <span class="block text-indigo-500">Tylor Grey</span>
+                                                <span class="block text-gray-400 text-sm">March 15, 2021</span>
+                                            </div>
+                                        </div>
+
+                                        <span class="text-gray-500 text-sm border rounded px-2 py-1">Article</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- article - end -->
+                            <!-- article - start -->
+                            <div
+                                class="bg-white border overflow-hidden rounded-lg shadow-lg  transition duration-300 transform   hover:scale-105 group hover:shadow-xl">
+                                <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                                    <img src="./img/blog6.jpg" loading="lazy" alt="Photo by Magicle"
+                                        class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+                                </a>
+
+                                <div class="flex flex-col flex-1 p-4 sm:p-6">
+                                    <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                                        <a href="#"
+                                            class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">Future
+                                            of work: Beyond bossware and job-killing robots</a>
+                                    </h2>
+
+                                    <p class="text-gray-500 mb-8">It’s up to us to create a world where financial reward
+                                        and social esteem lie with companies that augment rather than displace human
+                                        labor</p>
+
+                                    <div class="flex justify-between items-end mt-auto">
+                                        <div class="flex items-center gap-2">
+                                            <div class="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
+                                                <img src="https://images.unsplash.com/photo-1592660503155-7599a37f06a6?auto=format&q=75&fit=crop&w=64"
+                                                    loading="lazy" alt="Photo by Jassir Jonis"
+                                                    class="w-full h-full object-cover object-center" />
+                                            </div>
+
+                                            <div>
+                                                <span class="block text-indigo-500">Tylor Grey</span>
+                                                <span class="block text-gray-400 text-sm">March 15, 2021</span>
+                                            </div>
+                                        </div>
+
+                                        <span class="text-gray-500 text-sm border rounded px-2 py-1">Article</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- article - end -->
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Trending Blogs Section ends -->
+
+
+
+            </div>
+    </main>
+    <!-- Main ends -->
+
+
+    <!-- footer section -->
+    <!-- This section  is creating a footer section for the website. -->
+
+    <footer class="bg-gray-900">
+        <div class="max-w-screen-xl px-4 pb-6 mx-auto sm:px-6 lg:px-8">
+            <div
+                class="flex flex-col items-center md:items-start md:flex-row pt-16 mt-16 border-t border-gray-800 md:justify-between">
+                <div class="text-center sm:text-left">
+
+                    <nav class="mt-8 ">
+                        <ul
+                            class="font-medium text-lg space-y-4 lg:space-x-6 flex flex-col lg:!flex-row items-center flex-wrap">
+                            <li></li>
+                            <li class="my-4">
+                                <a class="text-white transition group-hover:text-white/75" href="/">
+                                    Home
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="text-white transition group-hover:text-white/75" href="./about.html">
+                                    About
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="text-white transition group-hover:text-white/75" href="./blog.html">
+                                    Blog
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="text-white transition group-hover:text-white/75" href="./login.html">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-white transition group-hover:text-white/75" href="./signup.html">
+                                    Signup
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <div class=" sm:text-left  mt-6 md:mt-0 flex ">
+                    <div class="max-w-md mx-auto mt-8 sm:ml-0 text-center">
+                        <p class="text-lg font-medium text-white ">Stay in Touch</p>
+                        <p class="leading-relaxed !text-center text-gray-400 sm:text-left">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum id,
+                            iure consectetur et error hic!
+                        </p>
+
+                        <form class="mt-4">
+                            <div class="flex flex-col md:flex-row gap-4 items-center lg:items-center">
+                                <div class="form-items w-full">
+                                    <label for="email" class="sr-only">Email</label>
+
+                                    <input
+                                        class="w-full px-6 py-3 text-white bg-gray-800 border-gray-700 rounded-full shadow-sm outline-none focus:border-slate-200 border-transparent border"
+                                        type="email" placeholder="Enter your email" />
+                                </div>
+                                <div class="form-items">
+
+                                    <button class="btn rounded-full " type="submit">
+                                        Subscribe
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-6 mt-16 border-t border-gray-800 sm:justify-between sm:items-center sm:flex">
+                <p class="text-sm text-center text-gray-500 sm:text-left">
+                    Copyright &copy; 2023. All rights reserved.
+                </p>
+
+                <ul class="flex justify-center gap-6 mt-4 sm:mt-0 sm:justify-start">
+                    <li>
+                        <a href="/" rel="noopener noreferrer" target="_blank"
+                            class="text-teal-500 transition hover:text-teal-500/75">
+                            <span class="sr-only">Facebook</span>
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/" rel="noopener noreferrer" target="_blank"
+                            class="text-teal-500 transition hover:text-teal-500/75">
+                            <span class="sr-only">Instagram</span>
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/" rel="noopener noreferrer" target="_blank"
+                            class="text-teal-500 transition hover:text-teal-500/75">
+                            <span class="sr-only">Twitter</span>
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/" rel="noopener noreferrer" target="_blank"
+                            class="text-teal-500 transition hover:text-teal-500/75">
+                            <span class="sr-only">GitHub</span>
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/" rel="noopener noreferrer" target="_blank"
+                            class="text-teal-500 transition hover:text-teal-500/75">
+                            <span class="sr-only">Dribbble</span>
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Section Ends -->
+
+
+
+
+</body>
+<script src="js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            type: "progressbar",
+        },
+        autoplay: {
+        delay: 8000,
+      },
+        breakpoints: {
+            640: {
+
+            },
+            1024: {
+
+            },
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+
+</html>
